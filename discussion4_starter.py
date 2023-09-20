@@ -13,6 +13,10 @@ class Rectangle():
 
 
     # Create the "__str__" method
+
+    def __str__(self):
+        return f"A rectangle with width {self.width} and height {self.height}"
+
     #
     # It returns a string, 
     #       "A rectangle with width ____ and height ____"
